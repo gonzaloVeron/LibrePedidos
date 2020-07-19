@@ -1,0 +1,1 @@
+class UsernameOrPasswordIncorrect : Exception("Usuario o contraseña incorrecto.")

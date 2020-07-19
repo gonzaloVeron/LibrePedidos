@@ -1,0 +1,1 @@
+data class NewUser(val username: String, val email: String, val password: String, var address: String, var coord: Coordinates)

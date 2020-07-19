@@ -1,0 +1,73 @@
+// Path: 127.0.0.1:7000/deliver
+// Metodo de pago: TARJETA DE CREDITO
+{
+  "user": "pepe",
+  "restaurantId": 1,
+  "menus": [{
+    "menuId": 0,
+    "amount": 4
+  }],
+  "payMethod": {
+    "creditCard": {
+      "name": "Homero Simpson",
+      "dni": "38541129",
+      "number": "4444 3333 2222 1111",
+      "securityCode": "123",
+      "type": "visa",
+      "expiration": "11/24"
+    }
+  },
+  "destination": {
+    "latitude": 123,
+    "longitude": 123
+  }
+}
+
+// Path: 127.0.0.1:7000/deliver
+// Metodo de pago: TARJETA DE DEBITO
+{
+  "user": "pepe",
+  "restaurantId": 1,
+  "menus": [{
+    "menuId": 0,
+    "amount": 4
+  }],
+  "payMethod": {
+    "debitCard": {
+      "name": "Homero Simpson",
+      "dni": "38541129",
+      "number": "4444 3333 2222 1111",
+      "securityCode": "123",
+      "type": "visa",
+      "expiration": "11/24"
+    }
+  },
+  "destination": {
+    "latitude": 123,
+    "longitude": 123
+  }
+}
+
+// Path: 127.0.0.1:7000/deliver
+// Metodo de pago: CASH
+{
+  "user": "pepe",
+  "restaurantId": 1,
+  "menus": [{
+    "menuId": 0,
+    "amount": 4
+  }],
+  "payMethod": {
+    "dataCash": {}
+  },
+  "destination": {
+    "latitude": 123,
+    "longitude": 123
+  }
+}
+
+// Path: 127.0.0.1:700/deliver/ID
+{
+	"user": "pepe",
+	"rating": 2
+}

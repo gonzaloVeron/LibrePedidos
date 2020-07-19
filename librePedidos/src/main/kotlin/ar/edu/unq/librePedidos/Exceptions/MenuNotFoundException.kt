@@ -1,0 +1,1 @@
+class MenuNotFoundException : NotFoundException("Menu no encontrado")

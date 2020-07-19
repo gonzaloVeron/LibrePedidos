@@ -1,0 +1,1 @@
+class UsernameNotAvailableException(username : String) : Exception("The username $username is already taken.")

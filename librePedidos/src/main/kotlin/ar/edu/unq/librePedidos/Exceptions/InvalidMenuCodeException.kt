@@ -1,0 +1,1 @@
+class InvalidMenuCodeException : Exception("Codigo de menu incorrecto")

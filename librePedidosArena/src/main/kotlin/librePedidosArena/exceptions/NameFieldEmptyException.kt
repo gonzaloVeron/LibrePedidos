@@ -1,0 +1,1 @@
+class NameFieldEmptyException() : Exception("Falta llenar el campo nombre.")

@@ -1,0 +1,1 @@
+class OrderNotFoundException : NotFoundException("Pedido no encontrado")

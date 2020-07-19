@@ -1,0 +1,1 @@
+data class DataRestaurantAndMenu(var restaurants: List<DataRestaurant>, var menus: List<DataMenu>)

@@ -1,0 +1,1 @@
+class UserNotFoundException : NotFoundException("Usuario no encontrado")

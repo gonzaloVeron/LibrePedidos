@@ -1,0 +1,1 @@
+data class DataOrderMenu(val menuId: Int, val amount: Int)

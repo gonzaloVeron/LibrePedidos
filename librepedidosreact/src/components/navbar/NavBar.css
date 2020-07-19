@@ -1,0 +1,32 @@
+.searchButton {
+    line-height: 80%;
+    margin-bottom: 25%;
+    font-size: 200%;
+}
+
+.searchDiv {
+    max-height: 35px;
+}
+
+.buttonNavBar {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.buttonNavBar:hover{
+    background-color:#4095c6;
+    color: #000;
+    text-decoration: none;
+}
+
+

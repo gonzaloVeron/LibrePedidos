@@ -1,0 +1,1 @@
+class UserWithoutPassword(name : String, email: String, address: String, coords: Coordinates, val finishedOrders: List<Order>, val pendingOrders: List<Order>) : UserWithoutOrdersAndPassword(name, email, address, coords)

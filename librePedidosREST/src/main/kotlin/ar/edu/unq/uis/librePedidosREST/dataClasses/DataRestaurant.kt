@@ -1,0 +1,1 @@
+data class DataRestaurant(val id: Int, val name: String, val dir: String, val coordinates: Coordinates, val description: String, val menus: MutableList<Menu>)

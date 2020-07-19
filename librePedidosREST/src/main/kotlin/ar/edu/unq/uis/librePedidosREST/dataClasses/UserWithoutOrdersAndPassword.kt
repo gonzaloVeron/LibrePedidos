@@ -1,0 +1,1 @@
+open class UserWithoutOrdersAndPassword(val name: String, val email: String, val address: String, val coords: Coordinates)

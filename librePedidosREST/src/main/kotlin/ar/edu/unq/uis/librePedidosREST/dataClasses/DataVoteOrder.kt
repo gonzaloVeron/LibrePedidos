@@ -1,0 +1,1 @@
+data class DataVoteOrder(val user: String, val rating: Int)

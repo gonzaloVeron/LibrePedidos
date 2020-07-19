@@ -1,0 +1,1 @@
+class UserAdmin(val nameUser : String, var password : String, var restaurant: Restaurant? = null)

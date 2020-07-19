@@ -1,0 +1,1 @@
+data class DataMenu(val menuId: Int, val name: String,  val amount: Int, val products: List<Product>, val restaurantId: Int)

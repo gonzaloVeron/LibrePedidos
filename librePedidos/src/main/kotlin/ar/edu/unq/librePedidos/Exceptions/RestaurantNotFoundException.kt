@@ -1,0 +1,1 @@
+class RestaurantNotFoundException : NotFoundException("Restaurant no encontrado.")

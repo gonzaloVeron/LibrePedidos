@@ -1,0 +1,1 @@
+class ProductInAnyMenuException() : Exception("El producto esta asignado en uno o mas menus.")

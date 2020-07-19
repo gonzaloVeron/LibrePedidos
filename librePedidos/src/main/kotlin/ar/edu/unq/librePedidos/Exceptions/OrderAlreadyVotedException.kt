@@ -1,0 +1,1 @@
+class OrderAlreadyVotedException: Exception("Este pedido ya fue votado anteriormente")

@@ -1,0 +1,1 @@
+class IncorrectParametersForQueryRequestException: Exception("Faltan parametros y/o son incorrectos.")

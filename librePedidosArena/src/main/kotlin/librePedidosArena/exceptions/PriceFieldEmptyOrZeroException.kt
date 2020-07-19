@@ -1,0 +1,1 @@
+class PriceFieldEmptyOrZeroException : Exception("El precio no puede ser cero o estar vacio.")

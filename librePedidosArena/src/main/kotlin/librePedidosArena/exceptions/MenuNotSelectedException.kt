@@ -1,0 +1,1 @@
+class MenuNotSelectedException() : Exception("No hay un menu seleccionado.")

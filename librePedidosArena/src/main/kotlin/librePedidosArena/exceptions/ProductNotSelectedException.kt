@@ -1,0 +1,1 @@
+class ProductNotSelectedException() : Exception("No hay un producto seleccionado.")
